@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["es2017", "es2016"]
+  },
+  "typeRoots": ["./node_modules/@types", "./src/custom-types"]
+}

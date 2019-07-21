@@ -1,0 +1,32 @@
+{
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "sync.gist": "1fd60e3560ef4e811c1c0ecc8e89172e",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": false,
+  "typescriptHero.imports.organizeSortsByFirstSpecifier": true,
+  "editor.rulers": [100, 120],
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "C_Cpp.updateChannel": "Insiders",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "diffEditor.renderSideBySide": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.tsserver.log": "verbose",
+  "prettier.tslintIntegration": true,
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "all",
+  "typescript.format.enable": false,
+  "typescript.experimental.useSeparateSyntaxServer": true
+}

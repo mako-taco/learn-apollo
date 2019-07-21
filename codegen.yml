@@ -1,0 +1,8 @@
+schema: src/server/graph-ql/schema.gql
+generates:
+  src/client/api-client/schema.codegen.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+    config:
+      avoidOptionals: true

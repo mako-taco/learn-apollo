@@ -1,0 +1,46 @@
+type User {
+  id: ID!
+  username: String!
+  orders: [Order!]!
+}
+
+type Order {
+  id: ID!
+  items: [OrderItem!]!
+  timestamp: Int!
+}
+
+type Item {
+  id: ID!
+  title: String!
+  description: String!
+  stock: Int!
+  price: Int!
+}
+
+type OrderItem {
+  item: Item!
+  qty: Int!
+}
+
+type Login {
+  token: String!
+}
+
+type CreateUser {
+  id: ID!
+}
+
+####################################################################################################
+
+type Query {
+  items(ids: [ID!]): [Item!]!
+  orders(userId: Int!): [Order!]
+}
+
+type Mutation {
+  createItem(title: String!, description: String!, initialStock: Int!, price: Int!): ID!
+  createOrder(userId: ID!, itemIds: [ID!]!, itemQtys: [ID!]!): ID!
+  createUser(username: String!): CreateUser!
+  login(username: String!): Login!
+}

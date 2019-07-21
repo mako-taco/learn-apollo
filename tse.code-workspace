@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "./tse/node_modules/typescript/lib",
+    "window.zoomLevel": 1,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "sync.gist": "1fd60e3560ef4e811c1c0ecc8e89172e",
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "explorer.confirmDragAndDrop": false,
+    "typescript.tsserver.log": "verbose",
+    "typescript.format.enable": true,
+    "typescript.experimental.useSeparateSyntaxServer": true
+  }
+}

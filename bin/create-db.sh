@@ -1,0 +1,5 @@
+#!/bin/bash
+source ".env"
+psql -c "CREATE DATABASE $DB_DATABSE" -d postgres
+psql -c "CREATE SCHEMA IF NOT EXISTS $DB_SCHEMA;" -d $DB_DATABSE
+psql -c "CREATE USER $DB_USER WITH PASSWORD '$DB_PASSWORD';" -d $DB_DATABSE 
