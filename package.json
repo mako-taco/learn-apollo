@@ -32,7 +32,7 @@
     "db-migrate-pg": "^1.0.0",
     "dotenv": "^8.0.0",
     "encoding": "^0.1.12",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "extract-loader": "^3.1.0",
     "file-loader": "^4.1.0",
     "graphql": "^14.4.2",
